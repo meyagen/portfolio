@@ -22,69 +22,21 @@
     <h2 class="Title--section">Selected Works</h2>
     <a href="/static/resume.pdf">View More</a>
     <ul class="Landing-SelectedWorks-list">
-      <li>
+      <li v-for="work in works">
         <div class="Logo">
           <div class="Logo-Flipper">
             <div class="Logo-Image">
-              <img src="~assets/images/freelancer/logo.png" alt="Freelancer.com">
+              <img :src="work.logoUrl" :alt="work.title">
             </div>
             <div class="Logo-Overlay">
-              <a href="/works/freelancer">VIEW<br/>CASE STUDY</a>
+              <a :href="work.url">VIEW<br/>CASE STUDY</a>
             </div>
           </div>
         </div>
         <br>
-        <span>TRUST & SAFETY</span>
+        <span>{{ work.title }}</span>
         <br>
-        <span>FREELANCER.COM LTD.</span>
-      </li>
-      <li>
-        <div class="Logo">
-          <div class="Logo-Flipper">
-            <div class="Logo-Image">
-              <img src="~assets/images/ras/logo.png" alt="RAS">
-            </div>
-            <div class="Logo-Overlay">
-              <a href="/works/ras">VIEW<br/>CASE STUDY</a>
-            </div>
-          </div>
-        </div>
-        <br>
-        <span>RECRUITMENT DIRECTORY</span>
-        <br>
-        <span>ROD & STAFF RECRUITMENT</span>
-      </li>
-      <li>
-        <div class="Logo">
-          <div class="Logo-Flipper">
-            <div class="Logo-Image">
-              <img src="~assets/images/buildex/logo.png" alt="BuildEx">
-            </div>
-            <div class="Logo-Overlay">
-              <a href="/works/buildex">VIEW<br/>CASE STUDY</a>
-            </div>
-            </div>
-        </div>
-        <br>
-        <span>BUILDEX</span>
-        <br>
-        <span>UPD DEPT. OF PSYCH.</span>
-      </li>
-      <li>
-        <div class="Logo">
-          <div class="Logo-Flipper">
-            <div class="Logo-Image">
-              <img src="~assets/images/pshscareers/logo.png" alt="PSHS Careers">
-            </div>
-            <div class="Logo-Overlay">
-              <a href="/works/pshscareers">VIEW<br/>CASE STUDY</a>
-            </div>
-            </div>
-        </div>
-        <br>
-        <span>PSHS CAREERS</span>
-        <br>
-        <span>PHILIPPINE SCIENCE HS</span>
+        <span>{{ work.client }}</span>
       </li>
     </ul>
   </section>
@@ -94,6 +46,37 @@
 <script>
 export default {
   name: 'Landing',
+
+  data: () => {
+    return {
+      works: [
+        {
+          client: 'FREELANCER.COM LTD.',
+          logoUrl: require('@/assets/images/freelancer/logo.png'),
+          title: 'TRUST & SAFETY',
+          url: '/works/freelancer',
+        },
+        {
+          client: 'ROD & STAFF RECRUITMENT',
+          logoUrl: require('@/assets/images/ras/logo.png'),
+          title: 'RECRUITMENT DIRECTORY',
+          url: '/works/recruitment_directory',
+        },
+        {
+          client: 'UPD DEPT. OF PSYCH.',
+          logoUrl: require('@/assets/images/buildex/logo.png'),
+          title: 'BUILDEX',
+          url: '/works/buildex',
+        },
+        {
+          client: 'PHILIPPINE SCIENCE HS',
+          logoUrl: require('@/assets/images/pshscareers/logo.png'),
+          title: 'PSHS CAREERS',
+          url: '/works/pshs_careers',
+        },
+      ],
+    }
+  }
 };
 </script>
 

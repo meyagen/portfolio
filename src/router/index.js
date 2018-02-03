@@ -22,7 +22,7 @@ export default new Router({
       component: Freelancer,
     },
     {
-      path: '/works/ras',
+      path: '/works/recruitment_directory',
       name: 'RasRecruitment',
       component: RasRecruitment,
     },
@@ -32,7 +32,7 @@ export default new Router({
       component: BuildEx,
     },
     {
-      path: '/works/pshscareers',
+      path: '/works/pshs_careers',
       name: 'PshsCareers',
       component: PshsCareers,
     },
