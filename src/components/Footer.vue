@@ -1,35 +1,30 @@
 <template>
   <footer class="Footer SectionContainer">
-    <div class="Footer--left">
-      <a href="/static/resume.pdf">resume</a>
-    </div>
-    <div class="Footer--right">
-      <a href="mailto:mireyagenandres@gmail.com"
-        class="tooltip is-tooltip-primary"
-        data-tooltip="mireyagenandres@gmail.com">
-        <i class="fa fa-envelope"></i>
-      </a>
-      <a href="https://gitlab.com/meyagen"
-        class="tooltip is-tooltip-primary"
-        data-tooltip="@meyagen">
-        <i class="fa fa-github"></i>
-      </a>
-      <a href="https://github.com/meyagen"
-        class="tooltip is-tooltip-primary"
-        data-tooltip="@meyagen">
-        <i class="fa fa-gitlab"></i>
-      </a>
-      <a href="https://medium.com/@meyagen"
-        class="tooltip is-tooltip-primary"
-        data-tooltip="@meyagen">
-        <i class="fa fa-medium"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/meyagen"
-        class="tooltip is-tooltip-primary"
-        data-tooltip="@meyagen">
-         <i class="fa fa-linkedin"></i>
-      </a>
-    </div>
+    <a href="mailto:mireyagenandres@gmail.com"
+      class="tooltip is-tooltip-primary"
+      data-tooltip="mireyagenandres@gmail.com">
+      <i class="fa fa-envelope"></i>
+    </a>
+    <a href="https://gitlab.com/meyagen"
+      class="tooltip is-tooltip-primary"
+      data-tooltip="@meyagen">
+      <i class="fa fa-github"></i>
+    </a>
+    <a href="https://github.com/meyagen"
+      class="tooltip is-tooltip-primary"
+      data-tooltip="@meyagen">
+      <i class="fa fa-gitlab"></i>
+    </a>
+    <a href="https://medium.com/@meyagen"
+      class="tooltip is-tooltip-primary"
+      data-tooltip="@meyagen">
+      <i class="fa fa-medium"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/meyagen"
+      class="tooltip is-tooltip-primary"
+      data-tooltip="@meyagen">
+        <i class="fa fa-linkedin"></i>
+    </a>
   </footer>
 </template>
 
@@ -44,22 +39,18 @@ export default {
 
 .Footer {
   bottom: 10px;
-  display: flex;
   margin-top: 90px;
   margin-bottom: $spacing-mid;
-
-  &--left {
-    flex: 1;
-  }
+  text-align: center;
 
   .fa {
     margin: 0 $spacing-xsmall;
 
-    transition: all 0.25s ease;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    -ms-transition: all 0.25s ease;
+    transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
   }
 
   .fa:hover {

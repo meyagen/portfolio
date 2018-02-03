@@ -20,6 +20,7 @@
 
   <section class="Landing-SelectedWorks SectionContainer">
     <h2 class="Title--section">Selected Works</h2>
+    <a href="/static/resume.pdf">View More</a>
     <ul class="Landing-SelectedWorks-list">
       <li>
         <div class="Logo">
@@ -112,6 +113,7 @@ export default {
 
     &-list {
       display: flex;
+      padding: $spacing-xlarge 0;
       text-align: center;
 
       li {
