@@ -1,0 +1,102 @@
+@import './variables';
+@import '~bulma/bulma';
+
+body {
+  color: $black;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+p {
+  color: $black;
+  display: block;
+  margin: 1em 0;
+}
+
+a {
+  color: $black;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $primary;
+}
+
+h1, h2, h3 {
+  color: $black;
+  font-family: 'Didot', serif;
+}
+
+.SectionContainer {
+  margin: $spacing-xxlarge auto;
+  max-width: 800px;
+}
+
+.Skills {
+  &-list {
+    margin: $spacing-mid 0;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.SkillTag {
+  border-radius: $spacing-large;
+  font-size: 0.7rem;
+  margin: $spacing-large $spacing-xxsmall;
+  padding: $spacing-xxsmall $spacing-large;
+
+  &--dev {
+    background-color: $devskill;
+    color: $white;
+  }
+  
+  &--ux {
+    background-color: $uxskill;
+    color: $white;
+  }
+}
+
+.Subtitle {
+  color: $black;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  opacity: 0.8;
+  position: relative;
+
+  &--highlight {
+    background: $highlight;
+    display: inline-block;
+    height: $spacing-mid;
+    left: -$spacing-mid;
+    opacity: 0.1;
+    position: absolute;
+    top: $spacing-xxsmall;
+    width: 110%;
+    z-index: -10;
+  }
+}
+
+.Title {
+  color: $black;
+  font-size: 2.5rem;
+
+  &--primary {
+    color: $primary;
+  }
+
+  &--section {
+    font-size: 2rem;
+    margin-bottom: $spacing-large;
+  }
+}
+
+.Work {
+  &-Header {
+    background-color: $background;
+    padding: $spacing-xlarge 0;
+  }
+}

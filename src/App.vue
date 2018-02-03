@@ -1,23 +1,32 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div class="Content">
+      <router-view/>
+    </div>
+    <AppFooter></AppFooter>
   </div>
 </template>
 
 <script>
+import AppFooter from '@/components/Footer';
+
 export default {
   name: 'App',
+  components: {
+    AppFooter,
+  }
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '~assets/sass/main';
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height:100vh;
+}
+
+.Content {
+  height: auto;
+  min-height: 400px;
 }
 </style>
