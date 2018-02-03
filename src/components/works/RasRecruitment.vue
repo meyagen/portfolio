@@ -58,6 +58,7 @@
     <h2 class="Title--section">Sample Work</h2>
     <img src="~assets/images/ras/sample1.png" alt="">
     <img src="~assets/images/ras/sample2.png" alt="">
+    <img src="~assets/images/ras/sample3.png" alt="">
   </section>
 
   <section class="Work-Links SectionContainer">
