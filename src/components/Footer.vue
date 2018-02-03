@@ -1,19 +1,32 @@
 <template>
   <footer class="Footer SectionContainer">
     <div class="Footer--left">
-      <a href="mailto:mireyagenandres@gmail.com">mireyagenandres@gmail.com</a>
+      <a href="/static/resume.pdf">resume</a>
     </div>
     <div class="Footer--right">
-      <a href="https://gitlab.com/meyagen">
+      <a href="mailto:mireyagenandres@gmail.com"
+        class="tooltip is-tooltip-primary"
+        data-tooltip="mireyagenandres@gmail.com">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://gitlab.com/meyagen"
+        class="tooltip is-tooltip-primary"
+        data-tooltip="@meyagen">
         <i class="fa fa-github"></i>
       </a>
-      <a href="https://github.com/meyagen">
+      <a href="https://github.com/meyagen"
+        class="tooltip is-tooltip-primary"
+        data-tooltip="@meyagen">
         <i class="fa fa-gitlab"></i>
       </a>
-      <a href="https://medium.com/@meyagen">
+      <a href="https://medium.com/@meyagen"
+        class="tooltip is-tooltip-primary"
+        data-tooltip="@meyagen">
         <i class="fa fa-medium"></i>
       </a>
-      <a href="https://www.linkedin.com/in/meyagen">
+      <a href="https://www.linkedin.com/in/meyagen"
+        class="tooltip is-tooltip-primary"
+        data-tooltip="@meyagen">
          <i class="fa fa-linkedin"></i>
       </a>
     </div>
