@@ -87,45 +87,6 @@
       </li>
     </ul>
   </section>
-
-  <section class="Landing-Skills SectionContainer">
-    <h2 class="Title--section">Skills</h2>
-    <ul class="Skills-list">
-      <li>
-        <span class="SkillTag SkillTag--ux">PROJECT MANAGEMENT</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--ux">UX</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">REACT</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">ANGULAR</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">VUE</span>
-      </li>
-    </ul>
-
-    <ul class="Skills-list">
-      <li>
-        <span class="SkillTag SkillTag--dev">GIT</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">DB</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">PHP</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">PYTHON</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">RUBY</span>
-      </li>
-    </ul>
-  </section>
 </div>
 </template>
 

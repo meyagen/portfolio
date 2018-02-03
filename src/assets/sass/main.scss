@@ -96,7 +96,27 @@ h1, h2, h3 {
 
 .Work {
   &-Header {
-    background-color: $background;
+    background-image: url('~assets/images/header.png');
+    background-size: cover;
+    height: 400px;
     padding: $spacing-xlarge 0;
+    position: relative;
+    z-index: -10;
+
+    &-Image {
+      bottom: 0;
+      height: 300px;
+      position: absolute;
+      right: $spacing-xxlarge;
+      width: auto;
+      z-index: -5;
+    }
+  }
+
+  &-Samples {
+    img {
+      margin: $spacing-small 0;
+      padding: 0 $spacing-small;
+    }
   }
 }
