@@ -32,6 +32,16 @@ h1, h2, h3 {
 .SectionContainer {
   margin: $spacing-xxlarge auto;
   max-width: 800px;
+
+  @include for-phone-only {
+    margin-left: $spacing-large;
+    margin-right: $spacing-large;
+  }
+
+  @include for-tablet-portait-only {
+    margin-left: $spacing-xlarge;
+    margin-right: $spacing-xlarge;
+   }
 }
 
 .Skills {
@@ -40,6 +50,7 @@ h1, h2, h3 {
 
     li {
       display: inline-block;
+      margin: $spacing-xxsmall 0;
     }
   }
 }
@@ -113,7 +124,17 @@ h1, h2, h3 {
       right: $spacing-xxlarge;
       width: auto;
       z-index: -5;
-    }
+
+      @include for-phone-only {
+       height: 160px;
+       right: $spacing-mid;
+      }
+
+      @include for-tablet-portait-only {
+        height: 215px;
+        right: $spacing-small;
+       }
+     }
   }
 
   &-Samples {

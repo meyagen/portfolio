@@ -113,12 +113,14 @@ export default {
 
     &-list {
       display: flex;
+      flex-wrap: wrap;
       padding: $spacing-xlarge 0;
       text-align: center;
 
       li {
         flex: 1;
         font-size: 0.7rem;
+        margin-top: $spacing-xxlarge;
       }
     }
   }

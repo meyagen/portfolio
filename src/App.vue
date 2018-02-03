@@ -22,7 +22,7 @@ export default {
 @import '~assets/sass/main';
 
 #app {
-  height:100vh;
+  height: 100vh;
 }
 
 .Content {
