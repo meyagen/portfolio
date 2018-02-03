@@ -23,20 +23,22 @@
     <a href="/static/resume.pdf">View More</a>
     <ul class="Landing-SelectedWorks-list">
       <li v-for="work in works">
-        <div class="Logo">
-          <div class="Logo-Flipper">
-            <div class="Logo-Image">
-              <img :src="work.logoUrl" :alt="work.title">
-            </div>
-            <div class="Logo-Overlay">
-              <a :href="work.url">VIEW<br/>CASE STUDY</a>
+        <a :href="work.url">
+          <div class="Logo">
+            <div class="Logo-Flipper">
+              <div class="Logo-Image">
+                <img :src="work.logoUrl" :alt="work.title">
+              </div>
+              <div class="Logo-Overlay">
+                <a :href="work.url">VIEW<br/>CASE STUDY</a>
+              </div>
             </div>
           </div>
-        </div>
-        <br>
-        <span>{{ work.title }}</span>
-        <br>
-        <span>{{ work.client }}</span>
+          <br>
+          <span>{{ work.title }}</span>
+          <br>
+          <span>{{ work.client }}</span>
+        </a>
       </li>
     </ul>
   </section>
@@ -104,6 +106,11 @@ export default {
         flex: 1;
         font-size: 0.7rem;
         margin-top: $spacing-xxlarge;
+
+        a {
+          text-decoration: none;
+          opacity: 1;
+        }
       }
     }
   }
