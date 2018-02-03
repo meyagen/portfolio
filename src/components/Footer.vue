@@ -4,11 +4,18 @@
       <a href="mailto:mireyagenandres@gmail.com">mireyagenandres@gmail.com</a>
     </div>
     <div class="Footer--right">
-      <a href="https://github.com/meyagen">github</a>
-      <span>&#9676;</span>
-      <a href="https://gitlab.com/meyagen">gitlab</a>
-      <span>&#9676;</span>
-      <a href="https://www.linkedin.com/in/meyagen">linkedin</a>
+      <a href="https://gitlab.com/meyagen">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://github.com/meyagen">
+        <i class="fa fa-gitlab"></i>
+      </a>
+      <a href="https://medium.com/@meyagen">
+        <i class="fa fa-medium"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/meyagen">
+         <i class="fa fa-linkedin"></i>
+      </a>
     </div>
   </footer>
 </template>
@@ -30,6 +37,24 @@ export default {
 
   &--left {
     flex: 1;
+  }
+
+  .fa {
+    margin: 0 $spacing-xsmall;
+
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+  }
+
+  .fa:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
   }
 }
 </style>

@@ -8,12 +8,12 @@
       </h1>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Software engineer. Aspiring product designer.</span>
+        <span>Software Engineer. Foodie. Video game enthusiast.</span>
       </h3>
       <br>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Foodie. Video game enthusiast.</span>
+        <span>Studying UX/Product Design. Looking for a mentor.</span>
       </h3>
     </div>
   </section>
@@ -131,27 +131,33 @@ export default {
   width: $size-logo;
 
   perspective: 1000;
-	-webkit-perspective: 1000;
-	-moz-perspective: 1000;
-	-ms-perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  -o-perspective: 1000;
 
-  -ms-transform: perspective(1000px);
-	-moz-transform: perspective(1000px);
-	-moz-transform-style: preserve-3d; 
-	-ms-transform-style: preserve-3d; 
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
 
   &-Image {
+    transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+
     z-index: 2;
   }
 
   &-Overlay {
-    transform: rotateY(-180deg);
+    transform: rotateY(0deg);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
 
     background-color: $background;
     border-radius: 100%;
@@ -169,30 +175,33 @@ export default {
   }
 
   &:hover &-Overlay {
+    transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
   }
 
   &:hover &-Image {
+    transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);    
   }
 
   &-Flipper {
     transition: 0.6s;
     -webkit-transition: 0.6s;
-    -ms-transition: 0.6s;
     -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
 
     position: relative;
   }
@@ -202,19 +211,20 @@ export default {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
 
     transition: 0.6s;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
-    -o-transition: 0.6s;
     -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
- 
+    -o-transform-style: preserve-3d;
+
     position: absolute;
   }
 }

@@ -1,9 +1,10 @@
 @import './variables';
 @import '~bulma/bulma';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
 
 body {
   color: $black;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Proxima Nova', 'Avenir', 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -24,7 +25,7 @@ a:hover {
 
 h1, h2, h3 {
   color: $black;
-  font-family: 'Didot', serif;
+  font-family: 'Playfair Display', 'Didot', serif;
 }
 
 .SectionContainer {
@@ -74,8 +75,9 @@ h1, h2, h3 {
     left: -$spacing-mid;
     opacity: 0.1;
     position: absolute;
-    top: $spacing-xxsmall;
+    top: $spacing-xsmall;
     width: 110%;
+    width: calc(100% + 32px);
     z-index: -10;
   }
 }
