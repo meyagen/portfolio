@@ -21,21 +21,41 @@
   <section class="Work-Overview SectionContainer">
     <h2 class="Title--section">Overview</h2>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quis itaque fugiat atque iure perferendis, porro mollitia distinctio repellendus ullam numquam vel optio, quas voluptatem doloremque hic quisquam nemo! Fugit.
+      PSHS has a complex system for career promotion, which includes a whole set of rules for administering
+      points on different kinds of educational achievements, from education background and tenure to research
+      publications and participation in academic competitions. This process is still, unfortunately, mired
+      in manual paperwork, which is prone to human error.
     </p>
+
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quis itaque fugiat atque iure perferendis, porro mollitia distinctio repellendus ullam numquam vel optio, quas voluptatem doloremque hic quisquam nemo! Fugit.
+      <strong>PSHS Careers</strong> aims to not only computerize the current process for the benefit of employees
+      and promoters, but also to implement a system to govern these promotion rules to make them easily adjustable
+      for future revisions.
     </p>
   </section>
 
   <section class="Work-Design SectionContainer">
     <h2 class="Title--section">Design & Development</h2>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quis itaque fugiat atque iure perferendis, porro mollitia distinctio repellendus ullam numquam vel optio, quas voluptatem doloremque hic quisquam nemo! Fugit.
+      Another freelance project from my college days. I collaborated with
+      <a href="https://www.linkedin.com/in/nmcalabroso/">@nmcalabroso</a> on this one, with me focusing on the
+      server logic. As we usually do, I took over client communication and project management while he took over
+      deployment and team management.
     </p>
 
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quis itaque fugiat atque iure perferendis, porro mollitia distinctio repellendus ullam numquam vel optio, quas voluptatem doloremque hic quisquam nemo! Fugit.
+      This was an interesting project from a data modelling perspective because we wanted to <strong>generalize a complex
+      system to make it future proof</strong>. It’s a joy to work on though, because it’s one of the rare projects where
+      the specs are well-documented and not prone to major changes. Because the goal of the site was very straightforward,
+      we wanted to focus on <strong>simplicity and clarity</strong> so that it’s easy for the employees to use, even
+      for those who may not be as tech savvy as the others.
+    </p>
+
+    <p>
+      However, when it came to actually deploying the site, we encountered several problems due to having
+      unprecedented pauses in the project as well as having to communicate with several point persons in the school’s
+      IT team. Leaving a paper (email) trail of action items decided upon, and <strong>keeping things documented</strong>,
+      helped use keep on top of things and maintain communication with the client.
     </p>
   </section>
 
@@ -47,9 +67,6 @@
       </li>
       <li>
         <span class="SkillTag SkillTag--dev">RUBY ON RAILS</span>
-      </li>
-      <li>
-        <span class="SkillTag SkillTag--dev">DB</span>
       </li>
     </ul>
   </section>

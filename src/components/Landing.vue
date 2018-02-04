@@ -8,14 +8,32 @@
       </h1>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Software Engineer. Foodie. Video game enthusiast.</span>
+        <span>Software Engineer. UX/Product Design student.</span>
       </h3>
       <br>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Studying UX/Product Design. Looking for a mentor.</span>
+        <span>Foodie. Video game enthusiast.</span>
       </h3>
     </div>
+  </section>
+
+  <section class="Landing-Summary SectionContainer">
+    <h2 class="Title--section">Hi there!</h2>
+    <p>
+      I'm a <strong>software engineer</strong> based in Manila, currently working in
+      <a href="https://www.freelancer.com/?t">Freelancer.com</a>'s Trust & Safety Team. I have also been a project
+      manager on my past freelance projects.
+    </p>
+    <p>
+      Software engineering is a deep and complex discipline, but for me it is just another tool to solve people problems.
+      I believe that technology can enable and empower people. As such, it should be intuitive yet as invisible as possible
+      to allow the person to focus on achieving their goal.
+    </p>
+    <p>
+      In my spare time, I study UX and Product Design. I love designing solutions for people, and I want to one day
+      transition to <strong>Interaction Design</strong> or any similar field to better achieve this goal. 
+    </p>
   </section>
 
   <section class="Landing-SelectedWorks SectionContainer">

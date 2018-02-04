@@ -12,6 +12,10 @@ p {
   color: $black;
   display: block;
   margin: 1em 0;
+
+  strong  {
+    color: $primary;
+  }
 }
 
 a {
