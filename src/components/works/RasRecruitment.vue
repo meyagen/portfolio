@@ -30,8 +30,8 @@
       Established recruiting apps often provide more features, but these are seen as needless clutter that
       distracts the recruiters from their work. Moreover, the small size of the company does not justify the
       costs of working with these recruiting apps, which charge more for the customization the recruiters need.
-      A <strong>simple</strong> in-house solution would better fit their needs. As Einstein once said, <i>“Everything should be made
-      as simple as possible, but not simpler.”</i>
+      A <strong>simple</strong> in-house solution would better fit their needs. As Einstein once said,
+      <i>“Everything should be made as simple as possible, but not simpler.”</i>
     </p>
   </section>
 
@@ -43,7 +43,7 @@
       for Neil’s case it was API development with <a href="https://elixir-lang.org/">Elixir</a>, while for me it was
       SPA development with <a href="https://vuejs.org/">Vue.js</a>. We both collaborated on all fronts, with Neil
       focusing on deployment and team management while I worked on client communication, setting deliverables,
-      organizing our phabricator workboard, and managing the project overall.      
+      organizing our phabricator workboard, and managing the project overall.
     </p>
 
     <p>
@@ -56,9 +56,10 @@
       We worked on the project by splitting it into several milestones and iteratively deploying features as
       they get finished, occasionally meeting with the client to provide a demo of how they can use the site.
       Because they were able to use the site in the early stages, we were able to find bugs more easily and receive
-      better feedback from the client, which allowed us to <strong>improve the experience for them incrementally</strong>.
-      This also naturally introduced scope creep as they get a better idea of what they really needed, but this is
-      something you can anticipate for when you <strong>actively listen to the needs of the client</strong>.
+      better feedback from the client, which allowed us to <strong>improve the experience for them
+      incrementally</strong>. This also naturally introduced scope creep as they get a better idea of what they
+      really needed, but this is something you can anticipate for when you <strong>actively listen to the needs
+      of the client</strong>.
     </p>
    </section>
 

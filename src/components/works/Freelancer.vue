@@ -23,14 +23,15 @@
     <p>
       The Trust & Safety Engineering team aims to make Freelancer.com a safe marketplace
       for freelancers and employers to work in. In order for a marketplace like Freelancer to work,
-      we have to ensure that users trust on the <i>platform</i> as well as the <i>users</i> they will be interacting with.
+      we have to ensure that users trust on the <i>platform</i> as well as the <i>users</i>
+      they will be interacting with.
     </p>
     <p>
-      <strong>Trust</strong> is an abstract concept that has a wide scope of problems; from firefighting urgent fraud attacks,
-      spam, and chargebacks, to implementing long-term solutions to increase user verification and encourage
-      good work behavior on the site. The problem is ever-evolving so there’s always something new and interesting.
-      Priorities change rapidly depending on immediate needs, but the goal is always to provide a reliable and
-      professional experience to our users.
+      <strong>Trust</strong> is an abstract concept that has a wide scope of problems; from firefighting urgent
+      fraud attacks, spam, and chargebacks, to implementing long-term solutions to increase user verification
+      and encourage good work behavior on the site. The problem is ever-evolving so there’s always something
+      new and interesting. Priorities change rapidly depending on immediate needs, but the goal is always to
+      provide a reliable and professional experience to our users.
     </p>
   </section>
 

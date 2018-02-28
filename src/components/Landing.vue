@@ -8,12 +8,12 @@
       </h1>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Software Engineer. UX/Product Design student.</span>
+        <span>Software Engineer.</span>
       </h3>
       <br>
       <h3 class="Subtitle">
         <span class="Subtitle--highlight"></span>
-        <span>Foodie. Video game enthusiast.</span>
+        <span>Foodie. Videogame enthusiast.</span>
       </h3>
     </div>
   </section>
@@ -22,17 +22,17 @@
     <h2 class="Title--section">Hi there!</h2>
     <p>
       I'm a <strong>software engineer</strong> based in Manila, currently working in
-      <a href="https://www.freelancer.com/?t">Freelancer.com</a>'s Trust & Safety Team. I have also been a project
-      manager on my past freelance projects.
+      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team. I have also been a project
+      manager in my past freelance projects.
     </p>
     <p>
-      Software engineering is a deep and complex discipline, but for me it is just another tool to solve people problems.
-      I believe that technology can enable and empower people. As such, it should be intuitive yet as invisible as possible
-      to allow the person to focus on achieving their goal.
+      Software engineering is a deep and complex discipline. It is interesting and challenging, but my personal
+      philosophy is that software engineering is just another tool to solve problems; to enable us, empower us, and
+      to help us achieve our goals.
     </p>
     <p>
-      In my spare time, I study UX and Product Design. I love designing solutions for people, and I want to one day
-      transition to <strong>Interaction Design</strong> or any similar field to better achieve this goal. 
+      I want to one day transition to <strong>Interaction Design</strong> or any similar field. In my spare time,
+      I study a bit of UX. I'm open to taking new career opportunities to better achieve this goal.
     </p>
   </section>
 
@@ -40,7 +40,7 @@
     <h2 class="Title--section">Selected Works</h2>
     <a href="/static/resume.pdf">View More</a>
     <ul class="Landing-SelectedWorks-list">
-      <li v-for="work in works">
+      <li v-for="work in works" :key="work.url">
         <a :href="work.url">
           <div class="Logo">
             <div class="Logo-Flipper">
@@ -66,37 +66,34 @@
 <script>
 export default {
   name: 'Landing',
-
-  data: () => {
-    return {
-      works: [
-        {
-          client: 'FREELANCER.COM LTD.',
-          logoUrl: require('@/assets/images/freelancer/logo.png'),
-          title: 'TRUST & SAFETY',
-          url: '/works/freelancer',
-        },
-        {
-          client: 'ROD & STAFF RECRUITMENT',
-          logoUrl: require('@/assets/images/ras/logo.png'),
-          title: 'RECRUITMENT DIRECTORY',
-          url: '/works/recruitment_directory',
-        },
-        {
-          client: 'UPD DEPT. OF PSYCH.',
-          logoUrl: require('@/assets/images/buildex/logo.png'),
-          title: 'BUILDEX',
-          url: '/works/buildex',
-        },
-        {
-          client: 'PHILIPPINE SCIENCE HS',
-          logoUrl: require('@/assets/images/pshscareers/logo.png'),
-          title: 'PSHS CAREERS',
-          url: '/works/pshs_careers',
-        },
-      ],
-    }
-  }
+  data: () => ({
+    works: [
+      {
+        client: 'FREELANCER.COM LTD.',
+        logoUrl: require('@/assets/images/freelancer/logo.png'),
+        title: 'TRUST & SAFETY',
+        url: '/works/freelancer',
+      },
+      {
+        client: 'ROD & STAFF RECRUITMENT',
+        logoUrl: require('@/assets/images/ras/logo.png'),
+        title: 'RECRUITMENT DIRECTORY',
+        url: '/works/recruitment_directory',
+      },
+      {
+        client: 'UPD DEPT. OF PSYCH.',
+        logoUrl: require('@/assets/images/buildex/logo.png'),
+        title: 'BUILDEX',
+        url: '/works/buildex',
+      },
+      {
+        client: 'PHILIPPINE SCIENCE HS',
+        logoUrl: require('@/assets/images/pshscareers/logo.png'),
+        title: 'PSHS CAREERS',
+        url: '/works/pshs_careers',
+      },
+    ]
+  }),
 };
 </script>
 

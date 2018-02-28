@@ -31,7 +31,7 @@
     <p>
       <strong>BuildEx</strong> is a solution designed by Computer Science students in conjunction with the
       faculty of the Department of Psychology, which addresses the rigidity of current solutions by providing
-      a <strong>drag and drop experiment creation system</strong> that makes use of a variety of stimuli 
+      a <strong>drag and drop experiment creation system</strong> that makes use of a variety of stimuli
       (images, videos, text, etc.) and records time-based data in addition to collecting form answers given by
       respondents to the experiment. This also allows better user and experiment management for the faculty
       researchers, who also advise their students’ experiments before they can be published.
@@ -41,7 +41,7 @@
   <section class="Work-Design SectionContainer">
     <h2 class="Title--section">Design & Development</h2>
     <p>
-      This one is a bit different from my previous works in that: <i>a)</i> I worked with two teams on 
+      This one is a bit different from my previous works in that: <i>a)</i> I worked with two teams on
       different iterations of the project; and <i>b)</i> for both iterations, I was still in college and no one on
       the team had proper industry experience yet aside from a short internship or so.
     </p>
@@ -56,11 +56,11 @@
     <p>
       Due to various circumstances, the old team can no longer work on the project so we had to work with a new team
       of developers. Being the only one left from the old team, I had the responsibility of passing on knowledge,
-      maintaining our relationship with the faculty of the Department of Psychology, and <strong>leading the team through
-      development</strong>. By then, I had already gone through my internship and worked on a few more projects,
-      so I was confident enough to start the project from scratch with a <a href="http://rubyonrails.org/">Ruby on Rails</a>
-      API and a client-side app made from <a href="https://expressjs.com/">Express.js</a> and
-      <a href="https://reactjs.org/">React</a>.
+      maintaining our relationship with the faculty of the Department of Psychology, and <strong>leading the team
+      through development</strong>. By then, I had already gone through my internship and worked on a few more projects,
+      so I was confident enough to start the project from scratch with a
+      <a href="http://rubyonrails.org/">Ruby on Rails</a> API and a client-side app made from
+      <a href="https://expressjs.com/">Express.js</a> and <a href="https://reactjs.org/">React</a>.
     </p>
 
     <p>
@@ -74,12 +74,13 @@
 
     <p>
       There is a lot of potential in this project, and I wish we could have continued working on it.
-      I wanted to lead this project with focusing on the learning and growth of my team members, both in their technical skills
-      as well as their soft skills. This was the first time I led a team for a project of this scale, and I struggled with
-      balancing team growth and finishing a quality product. This project taught me a lot about project management and
-      <strong>mentoring people without micromanaging them</strong>. A couple of years later, I found out that what I was struggling
-      to learn was how to have <i>radical candor</i> as a leader. There is a lot for me to learn in how to challenge people
-      with empathy, and I am still looking for opportunities for me to continue to develop and exercise these skills.
+      I wanted to lead this project with focusing on the learning and growth of my team members, both in their
+      technical skills as well as their soft skills. This was the first time I led a team for a project of this scale,
+      and I struggled with balancing team growth and finishing a quality product. This project taught me a lot about
+      project management and <strong>mentoring people without micromanaging them</strong>. A couple of years later,
+      I found out that what I was struggling to learn was how to have <i>radical candor</i> as a leader. There is a lot
+      for me to learn in how to challenge people with empathy, and I am still looking for opportunities for me to
+      continue to develop and exercise these skills.
     </p>
   </section>
 

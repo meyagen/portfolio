@@ -44,18 +44,19 @@
     </p>
 
     <p>
-      This was an interesting project from a data modelling perspective because we wanted to <strong>generalize a complex
-      system to make it future proof</strong>. It’s a joy to work on though, because it’s one of the rare projects where
-      the specs are well-documented and not prone to major changes. Because the goal of the site was very straightforward,
-      we wanted to focus on <strong>simplicity and clarity</strong> so that it’s easy for the employees to use, even
-      for those who may not be as tech savvy as the others.
+      This was an interesting project from a data modelling perspective because we wanted to <strong>generalize a
+      complex system to make it future proof</strong>. It’s a joy to work on though, because it’s one of the rare
+      projects where the specs are well-documented and not prone to major changes. Because the goal of the site was
+      very straightforward, we wanted to focus on <strong>simplicity and clarity</strong> so that it’s easy for the
+      employees to use, even for those who may not be as tech savvy as the others.
     </p>
 
     <p>
       However, when it came to actually deploying the site, we encountered several problems due to having
       unprecedented pauses in the project as well as having to communicate with several point persons in the school’s
-      IT team. Leaving a paper (email) trail of action items decided upon, and <strong>keeping things documented</strong>,
-      helped use keep on top of things and maintain communication with the client.
+      IT team. Leaving a paper (email) trail of action items decided upon, and
+      <strong>keeping things documented</strong>, helped use keep on top of things and maintain communication
+      with the client.
     </p>
   </section>
 

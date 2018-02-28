@@ -1,17 +1,19 @@
 @import './variables';
 @import '~bulma/bulma';
 @import '~bulma-tooltip/tooltip';
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Lato');
 
 body {
   color: $black;
-  font-family: 'Proxima Nova', 'Avenir', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Proxima Nova', 'Lato', Helvetica, Arial, sans-serif;
 }
 
 p {
   color: $black;
   display: block;
   margin: 1em 0;
+  font-family: 'Proxima Nova', 'Lato', Helvetica, Arial, sans-serif;
+
 
   strong  {
     color: $primary;
