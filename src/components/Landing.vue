@@ -22,18 +22,11 @@
     <h2 class="Title--section">Hi there!</h2>
     <p>
       I'm a <strong>software engineer</strong> based in Manila, currently working in
-      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team. I have also been a project
-      manager in my past freelance projects.
+      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team. I have also
+      managed and developed freelance projects in the past. In my spare time, I play video games,
+      listen to standup comedy, and study a bit of UX.
     </p>
-    <p>
-      Software engineering is a deep and complex discipline. It is interesting and challenging, but my personal
-      philosophy is that software engineering is just another tool to solve problems; to enable us, empower us, and
-      to help us achieve our goals.
-    </p>
-    <p>
-      I want to one day transition to <strong>Interaction Design</strong> or any similar field. In my spare time,
-      I study a bit of UX. I'm open to taking new career opportunities to better achieve this goal.
-    </p>
+    <a href="http://meyagen.com/sliding-puzzle">Play a puzzle game!</a>
   </section>
 
   <section class="Landing-SelectedWorks SectionContainer">
@@ -92,7 +85,7 @@ export default {
         title: 'PSHS CAREERS',
         url: '/works/pshs_careers',
       },
-    ]
+    ],
   }),
 };
 </script>
