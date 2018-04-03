@@ -26,7 +26,6 @@
       managed and developed freelance projects in the past. In my spare time, I play video games,
       listen to standup comedy, and study a bit of UX.
     </p>
-    <a href="http://meyagen.com/sliding-puzzle">Play a puzzle game!</a>
   </section>
 
   <section class="Landing-SelectedWorks SectionContainer">
