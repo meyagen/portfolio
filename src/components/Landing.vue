@@ -21,10 +21,10 @@
   <section class="Landing-Summary SectionContainer">
     <h2 class="Title--section">Hi there!</h2>
     <p>
-      I'm a <strong>software engineer</strong> based in Manila, currently working in
-      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team. I have also
-      managed and developed freelance projects in the past. In my spare time, I play video games,
-      listen to standup comedy, and study a bit of UX.
+      I'm a <strong>software engineer</strong> based in Manila. I have worked in
+      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team, as well as
+      managed and developed freelance projects in the past. In my spare time, I play video games, practice the piano,
+      bake, and study a bit of UX.
     </p>
   </section>
 
