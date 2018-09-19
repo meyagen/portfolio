@@ -5,13 +5,13 @@
       data-tooltip="mireyagenandres@gmail.com">
       <i class="fa fa-envelope"></i>
     </a>
-    <a href="https://gitlab.com/meyagen"
+    <a href="https://github.com/meyagen"
       target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
       <i class="fa fa-github"></i>
     </a>
-    <a href="https://github.com/meyagen"
+    <a href="https://gitlab.com/users/meyagen/projects"
       target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
