@@ -6,21 +6,25 @@
       <i class="fa fa-envelope"></i>
     </a>
     <a href="https://gitlab.com/meyagen"
+      target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
       <i class="fa fa-github"></i>
     </a>
     <a href="https://github.com/meyagen"
+      target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
       <i class="fa fa-gitlab"></i>
     </a>
     <a href="https://medium.com/@meyagen"
+      target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
       <i class="fa fa-medium"></i>
     </a>
     <a href="https://www.linkedin.com/in/meyagen"
+      target="_blank"
       class="tooltip is-tooltip-primary"
       data-tooltip="@meyagen">
         <i class="fa fa-linkedin"></i>
