@@ -91,9 +91,6 @@
         <span class="SkillTag SkillTag--ux">PROJECT MANAGEMENT</span>
       </li>
       <li>
-        <span class="SkillTag SkillTag--ux">UX</span>
-      </li>
-      <li>
         <span class="SkillTag SkillTag--dev">EXPRESS.JS</span>
       </li>
       <li>
@@ -101,6 +98,9 @@
       </li>
       <li>
         <span class="SkillTag SkillTag--dev">RUBY ON RAILS</span>
+      </li>
+      <li>
+        <span class="SkillTag SkillTag--dev">MYSQL</span>
       </li>
     </ul>
   </section>

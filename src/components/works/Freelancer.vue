@@ -78,7 +78,7 @@
         <span class="SkillTag SkillTag--dev">PHP</span>
       </li>
       <li>
-        <span class="SkillTag SkillTag--dev">ANGULAR</span>
+        <span class="SkillTag SkillTag--dev">JAVASCRIPT</span>
       </li>
     </ul>
   </section>

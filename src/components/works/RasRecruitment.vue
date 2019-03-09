@@ -70,9 +70,6 @@
         <span class="SkillTag SkillTag--ux">PROJECT MANAGEMENT</span>
       </li>
       <li>
-        <span class="SkillTag SkillTag--ux">UX</span>
-      </li>
-      <li>
         <span class="SkillTag SkillTag--dev">VUE</span>
       </li>
     </ul>

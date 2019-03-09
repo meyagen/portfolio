@@ -21,10 +21,11 @@
   <section class="Landing-Summary SectionContainer">
     <h2 class="Title--section">Hi there!</h2>
     <p>
-      I'm a <strong>software engineer</strong> based in Manila. I have worked in
-      <a href="https://www.freelancer.com">Freelancer.com</a>'s Trust & Safety Team, as well as
-      managed and developed freelance projects in the past. In my spare time, I play video games, practice the piano,
-      bake, and study a bit of UX.
+      <span>I'm a <strong>software engineer</strong> based in Manila.</span>
+      <span>I have worked in</span>
+      <a href="https://www.freelancer.com">Freelancer.com</a>'s
+      <span>Trust & Safety Team, and am currently employed as a Frontend Engineer in</span>
+      <a href="https://digix.global/">Digix Global</a>.
     </p>
   </section>
 
@@ -40,14 +41,18 @@
                 <img :src="work.logoUrl" :alt="work.title">
               </div>
               <div class="Logo-Overlay">
-                <a :href="work.url">VIEW<br/>CASE STUDY</a>
+                <a :href="work.url">
+                  <span>VIEW</span>
+                  <br/>
+                  <span>CASE STUDY</span>
+                </a>
               </div>
             </div>
           </div>
           <br>
           <span>{{ work.title }}</span>
           <br>
-          <span>{{ work.client }}</span>
+          <div class="Logo-Client">{{ work.client }}</div>
         </a>
       </li>
     </ul>
@@ -56,31 +61,36 @@
 </template>
 
 <script>
+import FlnLogo from '@/assets/images/freelancer/logo.png';
+import RasLogo from '@/assets/images/ras/logo.png';
+import BuildExLogo from '@/assets/images/buildex/logo.png';
+import PshsCareersLogo from '@/assets/images/pshscareers/logo.png';
+
 export default {
   name: 'Landing',
   data: () => ({
     works: [
       {
         client: 'FREELANCER.COM LTD.',
-        logoUrl: require('@/assets/images/freelancer/logo.png'),
+        logoUrl: FlnLogo,
         title: 'TRUST & SAFETY',
         url: '/works/freelancer',
       },
       {
         client: 'ROD & STAFF RECRUITMENT',
-        logoUrl: require('@/assets/images/ras/logo.png'),
+        logoUrl: RasLogo,
         title: 'RECRUITMENT DIRECTORY',
         url: '/works/recruitment_directory',
       },
       {
-        client: 'UPD DEPT. OF PSYCH.',
-        logoUrl: require('@/assets/images/buildex/logo.png'),
+        client: 'UP DILIMAN, DEPARTMENT OF PSYCHOLOGY',
+        logoUrl: BuildExLogo,
         title: 'BUILDEX',
         url: '/works/buildex',
       },
       {
-        client: 'PHILIPPINE SCIENCE HS',
-        logoUrl: require('@/assets/images/pshscareers/logo.png'),
+        client: 'PHILIPPINE SCIENCE HIGH SCHOOL',
+        logoUrl: PshsCareersLogo,
         title: 'PSHS CAREERS',
         url: '/works/pshs_careers',
       },
@@ -142,6 +152,11 @@ export default {
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
+
+  &-Client {
+    margin: 0 auto;
+    width: $size-logo;
+  }
 
   &-Image {
     transform: rotateY(0deg);
